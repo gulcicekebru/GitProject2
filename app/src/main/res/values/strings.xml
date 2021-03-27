@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Git Project2</string>
+    <string name="app_name">FOCUS</string>
+    <string name="register">REGISTER</string>
+    <string name="enter_email">Your email or username</string>
+    <string name="enter_pass">Your password</string>
+    <string name="log_me_in">LOG ME IN</string>
+    <string name="your_username">Your Username</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_pass">Your Password</string>
+    <string name="your_retype">Re-type Your Password</string>
+    <string name="select_gender">Select gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="not_say">Prefer not to say</string>
+    <string name="others">Others</string>
+
+
+
 </resources>
