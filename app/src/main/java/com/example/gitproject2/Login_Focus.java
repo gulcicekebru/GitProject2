@@ -14,6 +14,7 @@ import android.widget.TextView;
 public class Login_Focus extends AppCompatActivity {
 
     Button butRegister;
+    Button butLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +27,16 @@ public class Login_Focus extends AppCompatActivity {
                 Intent intent = new Intent(Login_Focus.this,Register_Focus.class);
                 startActivity(intent);
             }
-        });
 
+        });
+        butLogin = findViewById(R.id.btn_login);
+        butLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login_Focus.this,Home_Page.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

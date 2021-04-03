@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home_pagee" android:title="Home" android:icon="@drawable/home_icon" />
+    <item android:id="@id/explore_page" android:title="Explore" android:icon="@drawable/explore_icon" />
+    <item android:id="@id/library_page" android:title="Library" android:icon="@drawable/lib_icon"/>
+    <item android:id="@id/profile_page"  android:title="Profile" android:icon="@drawable/profile_icon"/>
+</menu>

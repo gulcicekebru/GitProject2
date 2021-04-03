@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page"
+    app:startDestination="@id/home_pagee">
+
+    <fragment
+        android:id="@+id/library_page"
+        android:name="com.example.gitproject2.library_page"
+        android:label="fragment_library_page"
+        tools:layout="@layout/fragment_library_page" />
+    <fragment
+        android:id="@+id/profile_page"
+        android:name="com.example.gitproject2.profile_page"
+        android:label="fragment_profile_page"
+        tools:layout="@layout/fragment_profile_page" />
+    <fragment
+        android:id="@+id/explore_page"
+        android:name="com.example.gitproject2.explore_page"
+        android:label="fragment_explore_page"
+        tools:layout="@layout/fragment_explore_page" />
+    <fragment
+        android:id="@+id/home_pagee"
+        android:name="com.example.gitproject2.home_pagee"
+        android:label="fragment_home_pagee"
+        tools:layout="@layout/fragment_home_pagee" />
+</navigation>
