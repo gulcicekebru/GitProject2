@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="@drawable/login_back"
-    tools:context=".home_pagee">
+    tools:context=".Sleep">
 
-    <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -20,6 +19,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize">
+
 
 
                 <Button
@@ -45,89 +45,66 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="227dp"
-                android:layout_margin="35dp"
-                android:background="@drawable/meditation">
+                android:layout_width="348dp"
+                android:layout_height="249dp"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:background="@drawable/deep_sleep">
 
                 <TextView
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="25dp"
-                    android:text="MEDITATION"
-                    android:textColor="@color/krem"
+                    android:padding="20dp"
+                    android:text="DEEP SLEEP"
+                    android:textColor="@color/brown"
                     android:textSize="30sp" />
 
                 <Button
-                    android:id="@+id/btn_all_meditation"
+                    android:id="@+id/btn_deep_sleep"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
-                    android:padding="20dp"
-                    android:text="expand all"
-                    android:textColor="@color/krem"/>
+                    android:padding="30dp"
+                    android:text="see all"
+                    android:textColor="@color/brown"
+                    android:textStyle="bold" />
 
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="227dp"
-                android:layout_margin="35dp"
-                android:background="@drawable/focus">
+                android:layout_height="249dp"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:background="@drawable/light_sleep">
 
                 <TextView
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="25dp"
-                    android:text="FOCUS"
-                    android:textColor="@color/krem"
+                    android:padding="20dp"
+                    android:text="LIGHT SLEEP"
+                    android:textColor="@color/brown"
                     android:textSize="30sp" />
 
                 <Button
-                    android:id="@+id/btn_all_focus"
+                    android:id="@+id/btn_light_sleep"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
-                    android:padding="20dp"
-                    android:text="expand all"
-                    android:textColor="@color/krem" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="227dp"
-                android:layout_margin="35dp"
-                android:background="@drawable/sleep2">
-
-                <TextView
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="25dp"
-                    android:text="SLEEP"
-                    android:textColor="@color/krem"
-                    android:textSize="30sp" />
-
-                <Button
-                    android:id="@+id/btn_all_sleep"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:background="#00000000"
-                    android:padding="20dp"
-                    android:text="expand all"
-                    android:textColor="@color/krem" />
-
+                    android:padding="30dp"
+                    android:text="see all"
+                    android:textColor="@color/brown"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
 
 
         </LinearLayout>
     </ScrollView>
-</FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

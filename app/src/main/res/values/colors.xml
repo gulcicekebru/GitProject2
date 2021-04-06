@@ -14,6 +14,16 @@
     <color name="brownsoft2">#B68C7E</color>
     <color name="warningred">#C1380A</color>
     <color name="success">#47BDBD</color>
+    <color name="lightWhite">#f2f5f8</color>
+    <color name="krem">#EAD6C3</color>
+    <color name="dkrem">#C6AD94</color>
+    <color name="ddkrem">#C3A78A</color>
+    <color name="dddkrem">#BA936A</color>
+    <color name="dwhite">#E1DAD8</color>
+
+
+
+
 
 
 </resources>
