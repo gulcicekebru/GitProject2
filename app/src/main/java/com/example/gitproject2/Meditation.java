@@ -29,7 +29,7 @@ public class Meditation extends AppCompatActivity {
         btn_with_guide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Meditation.this,home_pagee.class);
+                Intent intent = new Intent(Meditation.this,home_music_meditation.class);
                 startActivity(intent);
             }
         });
@@ -38,7 +38,7 @@ public class Meditation extends AppCompatActivity {
         btn_without_guide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Meditation.this,home_pagee.class);
+                Intent intent = new Intent(Meditation.this,home_music_meditation.class);
                 startActivity(intent);
             }
         });

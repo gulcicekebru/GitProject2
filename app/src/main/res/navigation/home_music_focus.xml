@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_music_focus"
+        app:startDestination="@id/deep_focus">
+        <fragment
+            android:id="@+id/deep_focus"
+            android:name="com.example.gitproject2.deep_focus"
+            android:label="fragment_deep_focus"
+            tools:layout="@layout/fragment_deep_focus" />
+        <fragment
+            android:id="@+id/creative_focus"
+            android:name="com.example.gitproject2.creative_focus"
+            android:label="fragment_creative_focus"
+            tools:layout="@layout/fragment_creative_focus" />
+    <fragment
+        android:id="@+id/light_focus"
+        android:name="com.example.gitproject2.light_focus"
+        android:label="fragment_light_focus"
+        tools:layout="@layout/fragment_light_focus" />
+</navigation>

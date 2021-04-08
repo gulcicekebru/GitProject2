@@ -67,7 +67,7 @@ public class home_pagee extends Fragment {
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_home_pagee, container, false);
        //BUTONA TIKLANILINCA YENİ AKTİVİYE YONLENDİRME
-         btn_all_meditation=view.findViewById(R.id.btn_all_meditation);
+         btn_all_meditation=view.findViewById(R.id.btn_exp_m);
          btn_all_meditation.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View view) {
@@ -75,7 +75,7 @@ public class home_pagee extends Fragment {
                  startActivity(intent);
              }
          });
-        btn_all_focus=view.findViewById(R.id.btn_all_focus);
+        btn_all_focus=view.findViewById(R.id.btn_exp_f);
         btn_all_focus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -83,7 +83,7 @@ public class home_pagee extends Fragment {
                 startActivity(intent);
             }
         });
-        btn_all_sleep=view.findViewById(R.id.btn_all_sleep);
+        btn_all_sleep=view.findViewById(R.id.btn_exp_s);
         btn_all_sleep.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

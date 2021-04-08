@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/login_back"
+    android:background="@color/black"
     tools:context=".home_pagee">
 
     <!-- TODO: Update blank fragment layout -->
@@ -38,7 +38,7 @@
                     android:padding="10dp"
                     android:text="Categories"
                     android:textAllCaps="true"
-                    android:textColor="@color/dkrem"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
 
 
@@ -46,7 +46,7 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="227dp"
+                android:layout_height="278dp"
                 android:layout_margin="35dp"
                 android:background="@drawable/meditation">
 
@@ -56,25 +56,25 @@
                     android:layout_height="wrap_content"
                     android:padding="25dp"
                     android:text="MEDITATION"
-                    android:textColor="@color/krem"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
 
                 <Button
-                    android:id="@+id/btn_all_meditation"
+                    android:id="@+id/btn_exp_m"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
                     android:padding="20dp"
                     android:text="expand all"
-                    android:textColor="@color/krem"/>
+                    android:textColor="@color/white" />
 
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="227dp"
+                android:layout_height="264dp"
                 android:layout_margin="35dp"
                 android:background="@drawable/focus">
 
@@ -84,24 +84,24 @@
                     android:layout_height="wrap_content"
                     android:padding="25dp"
                     android:text="FOCUS"
-                    android:textColor="@color/krem"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
 
                 <Button
-                    android:id="@+id/btn_all_focus"
+                    android:id="@+id/btn_exp_f"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
                     android:padding="20dp"
                     android:text="expand all"
-                    android:textColor="@color/krem" />
+                    android:textColor="@color/white" />
 
             </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="227dp"
+                android:layout_height="264dp"
                 android:layout_margin="35dp"
                 android:background="@drawable/sleep2">
 
@@ -111,18 +111,18 @@
                     android:layout_height="wrap_content"
                     android:padding="25dp"
                     android:text="SLEEP"
-                    android:textColor="@color/krem"
+                    android:textColor="@color/white"
                     android:textSize="30sp" />
 
                 <Button
-                    android:id="@+id/btn_all_sleep"
+                    android:id="@+id/btn_exp_s"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:background="#00000000"
                     android:padding="20dp"
                     android:text="expand all"
-                    android:textColor="@color/krem" />
+                    android:textColor="@color/white" />
 
 
             </RelativeLayout>

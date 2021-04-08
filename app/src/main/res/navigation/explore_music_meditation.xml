@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/explore_music_meditation"
+    app:startDestination="@id/zazen">
+
+    <fragment
+        android:id="@+id/zazen"
+        android:name="com.example.gitproject2.zazen"
+        android:label="fragment_zazen"
+        tools:layout="@layout/fragment_zazen" />
+    <fragment
+        android:id="@+id/chakra"
+        android:name="com.example.gitproject2.chakra"
+        android:label="fragment_chakra"
+        tools:layout="@layout/fragment_chakra" />
+    <fragment
+        android:id="@+id/metta"
+        android:name="com.example.gitproject2.Metta"
+        android:label="fragment_metta"
+        tools:layout="@layout/fragment_metta" />
+    <fragment
+        android:id="@+id/vipassana"
+        android:name="com.example.gitproject2.Vipassana"
+        android:label="fragment_vipassana"
+        tools:layout="@layout/fragment_vipassana" />
+</navigation>

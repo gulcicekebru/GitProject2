@@ -1,5 +1,6 @@
 package com.example.gitproject2;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +16,10 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class explore_page extends Fragment {
+    Button btn_exp_m;
+    Button btn_exp_f;
+    Button btn_exp_s;
+    Button btn_back;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -58,7 +64,46 @@ public class explore_page extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_explore_page, container, false);
+        View view=inflater.inflate(R.layout.fragment_explore_page, container, false);
+        //BUTONA TIKLANILINCA YENİ AKTİVİYE YONLENDİRME
+        btn_exp_m=view.findViewById(R.id.btn_exp_m);
+        btn_exp_m.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(explore_page.this.getActivity(),Explore_M.class);
+                startActivity(intent);
+            }
+        });
+        btn_exp_f=view.findViewById(R.id.btn_exp_f);
+        btn_exp_f.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(explore_page.this.getActivity(),Explore_F.class);
+                startActivity(intent);
+            }
+        });
+        btn_exp_s=view.findViewById(R.id.btn_exp_s);
+        btn_exp_s.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(explore_page.this.getActivity(),Explore_S.class);
+                startActivity(intent);
+            }
+        });
+        //GİRİS EKRANINA GERI DONMEK ICIN BACK BUTONU ILE YONLENDIRME
+        btn_back=view.findViewById(R.id. btn_back);
+        btn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(explore_page.this.getActivity(),Login_Focus.class);
+                startActivity(intent);
+            }
+        });
+
+
+        return view;
     }
+
 }

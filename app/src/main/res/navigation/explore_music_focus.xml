@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/explore_music_focus"
+    app:startDestination="@id/storm">
+    <fragment
+        android:id="@+id/storm"
+        android:name="com.example.gitproject2.Storm"
+        android:label="fragment_storm"
+        tools:layout="@layout/fragment_storm" />
+    <fragment
+        android:id="@+id/seashell"
+        android:name="com.example.gitproject2.Seashell"
+        android:label="fragment_seashell"
+        tools:layout="@layout/fragment_seashell" />
+    <fragment
+        android:id="@+id/classic"
+        android:name="com.example.gitproject2.Classic"
+        android:label="fragment_classic"
+        tools:layout="@layout/fragment_classic" />
+</navigation>

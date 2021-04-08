@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Night Sounds" android:icon="@drawable/home_icon" android:id="@+id/nightsounds"/>
+    <item android:title="Atmospheric" android:icon="@drawable/home_icon" android:id="@+id/atmospheric"/>
+    <item android:title="Forest" android:icon="@drawable/home_icon" android:id="@+id/forest"/>
+    <item android:title="Our Friends" android:icon="@drawable/home_icon" android:id="@+id/ourFriends"/>
+</menu>

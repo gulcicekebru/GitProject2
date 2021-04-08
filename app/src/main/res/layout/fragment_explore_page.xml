@@ -1,14 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".explore_page">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize">
+
+
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/back_icon"
+                    android:padding="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:fontFamily="serif"
+                    android:padding="10dp"
+                    android:text="Categories"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="342dp"
+                android:layout_height="266dp"
+                android:layout_margin="35dp"
+                android:background="@drawable/explore_meditation">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="MEDITATION"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btn_exp_m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="expand all"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="342dp"
+                android:layout_height="266dp"
+                android:layout_margin="35dp"
+                android:background="@drawable/explore_focus">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="FOCUS"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btn_exp_f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="expand all"
+                    android:textColor="@color/white" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="342dp"
+                android:layout_height="266dp"
+                android:layout_margin="35dp"
+                android:background="@drawable/explore_sleep">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="SLEEP"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btn_exp_s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="expand all"
+                    android:textColor="@color/white" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

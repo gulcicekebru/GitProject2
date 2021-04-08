@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Deep Focus" android:icon="@drawable/home_icon" android:id="@+id/deep_focus"/>
+    <item android:title="Light Focus" android:icon="@drawable/home_icon" android:id="@+id/light_focus"/>
+    <item android:title="Creative Focus" android:icon="@drawable/home_icon" android:id="@+id/creative_focus"/>
+
+
+</menu>
